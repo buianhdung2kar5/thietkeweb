@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
         col.className = "col-12 col-xl-4 col-lg-6";
 
         col.innerHTML = `
-                <div class="article-item">
-  <div class="inner-image">
+                <div class="article-item ">
+  <div class="inner-image-2">
     <a href="${item.link}">
-      <img src="${item.image}" alt="${item.title}">
+      <img clas="img-main-content"ii src="${item.image}" alt="${item.title}">
     </a>
   </div>
   <div class="inner-content">

@@ -6,19 +6,18 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #fff;
-  margin: 15px;
   position: relative;
 }
 
-.article-item .inner-image {
-  height: 160px;
+.article-item .inner-image-2 {
+  height: 50% !important;
   width: 100%;
   flex-shrink: 0;
   overflow: hidden;
   position: relative;
 }
 
-.article-item .inner-image > a {
+.article-item .inner-image-2 > a {
   display: block !important;        /* Ghi đè inline mặc định của Bootstrap */
   height: 100% !important;
   width: 100% !important;
@@ -26,8 +25,7 @@
   padding: 0 !important;
   margin: 0 !important;
 }
-
-.article-item .inner-image > a > img {
+.article-item .inner-image-2 > a > .img {
   display: block !important;        /* Tránh inline ảnh của Bootstrap */
   height: 100% !important;
   width: 100% !important;
@@ -40,7 +38,7 @@
 }
 
 /* Hover gradient overlay */
-.article-item .inner-image > a::before {
+.article-item .inner-image-2 > a::before {
   content: '';
   position: absolute;
   width: 0%;
@@ -53,7 +51,7 @@
   background: linear-gradient(-30deg, #f57f20, #d62b08 100%);
 }
 
-.article-item:hover .inner-image > a::before {
+.article-item:hover .inner-image-2 > a::before {
   width: 100%;
   left: 0;
   right: auto;

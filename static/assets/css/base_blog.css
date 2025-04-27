@@ -142,12 +142,18 @@ a:hover {
     height:auto;
 }
 
-.article-item img {
+.col-md-3 .article-item img {
     max-height: 100px;
     object-fit: cover;
     width: 100%;
     border-radius: 10px 10px 0 0;
   }
+  .article-item img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
   
 .article-item .inner-content .desc {
     font-size: 12px;
