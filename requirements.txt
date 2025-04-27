@@ -1,2 +1,4 @@
-flask
-requests
+flask==2.0.1
+flask_sqlalchemy==2.5.1
+flask_login==0.5.0
+requests==2.25.1
