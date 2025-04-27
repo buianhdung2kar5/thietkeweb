@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("/static//assets/data/articles.json")
+    fetch("/static/assets/data/articles.json")
       .then((res) => res.json())
       .then((data) => {
         renderHotArticle(data);
