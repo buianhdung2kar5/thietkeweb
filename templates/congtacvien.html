@@ -1,0 +1,2588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/assets/css/reset.css">
+    <link rel="stylesheet" href="/static/assets/css/base.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        
+
+    
+        .cangiua{
+            display: flex;
+            justify-content: center;
+        }
+        table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+thead th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+        .section5{
+            margin: 80px 0;
+        }
+        .section5 .inner-title{
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 700;
+            color: var(--color-2);
+        }
+        .section5 .inner-wrap{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .section5 .inner-wrap .inner-image{
+            box-sizing: border-box;
+            width: calc(100%/2 - 60px/2);
+            margin-right: 30px;
+        }
+        .section5 .inner-wrap .inner-image img{
+            width: 100%;
+        }
+        .section5 .inner-wrap .inner-content{
+            width: 50%;
+            box-sizing: border-box;
+        }
+        .section5 .inner-wrap .inner-content .inner-box{
+            display: flex;
+            margin-bottom: 30px;
+            margin-top:50px;
+        }
+        .section5 .inner-wrap .inner-content .inner-box img{
+            width: 85px;
+            height: 85px;
+        }
+        .section5 .inner-wrap .inner-content .inner-box .title{
+            margin-left: 15px;
+        }
+        .section5 .inner-wrap .inner-content .inner-box .title h2{
+            font-weight: 700;
+            font-size: 24px;
+            color: rgba(0, 0, 0, 0.792);
+            margin-bottom: 10px;
+        }
+        @media (max-width: 991.98px) {
+    .section5 .inner-wrap {
+        flex-direction: column; 
+    }
+
+    .section5 .inner-wrap .inner-image {
+        width: 100%;
+        margin-right: 0; 
+        margin-bottom: 30px; 
+        margin: 0 auto;
+    }
+    .section5 .inner-wrap .inner-content {
+        width: 100%;
+        margin: auto;
+    }
+
+    .section5 .inner-wrap .inner-content .inner-box {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .section5 .inner-wrap .inner-content .inner-box .title {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+    }
+        .class-1 {
+    cursor: auto;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    line-height:22.4px;
+    color:rgb(51, 51, 51);
+    overflow-x:hidden;
+    box-sizing:border-box;
+    
+}
+
+.class-2 {
+    display:block;
+    box-sizing:border-box;
+    
+}
+.class-3 {
+    background:rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    box-shadow:rgba(0, 0, 0, 0.06) 0px 2px 28px 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    box-sizing:border-box;
+    
+}
+.class-4 {
+    max-width:1200px;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing:border-box;
+    
+}
+.class-5 {
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+    box-sizing:border-box;
+    
+}
+.class-6 {
+    flex:0 0 16.6667%;
+    max-width:16.6667%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-7 {
+    box-sizing:border-box;
+    
+}
+.class-8 {
+    color:rgb(51, 51, 51);
+    text-decoration:none solid rgb(51, 51, 51);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-9 {
+    max-height:50px;
+    max-width:100%;
+    height: auto;
+    vertical-align:middle;
+    border-style:none;
+    box-sizing:border-box;
+    
+}
+.class-10 {
+    flex:0 0 58.3333%;
+    max-width:58.3333%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-11 {
+    display:none;
+    color:rgb(51, 51, 51);
+    text-decoration:none solid rgb(51, 51, 51);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-12 {
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:14px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-13 {
+    display:none;
+    box-sizing:border-box;
+    
+}
+.class-14 {
+    font-weight:700;
+    font-size:20px;
+    box-sizing:border-box;
+    
+}
+.class-15 {
+    transform:none;
+    color:rgb(51, 51, 51);
+    text-decoration:none solid rgb(51, 51, 51);
+    transition:0.25s;
+    display:inline-block;
+    line-height:14px;
+    box-sizing:border-box;
+    
+}
+.class-16 {
+    display:flex;
+    list-style:outside none none;
+    padding-left:0px;
+    margin-bottom:0px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-17 {
+    display:block;
+    flex: 1 1 auto;
+    text-align:center;
+    position:relative;
+    box-sizing:border-box;
+    
+}
+.class-18 {
+    display:inline-block;
+    line-height:46px;
+    height:46px;
+    color:rgb(51, 51, 51);
+    text-align:center;
+    font-size:15px;
+    font-weight:500;
+    text-decoration:none solid rgb(51, 51, 51);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-19 {
+    display:inline-block;
+    font-size:12px;
+    margin-left:3px;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:12px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-20 {
+    position:absolute;
+    opacity:0;
+    filter:opacity(0);
+    visibility:hidden;
+    transition:opacity 0.05s;
+    transform:matrix(1, 0, 0, 1, 0, 20);
+    min-width:260px;
+    left:0px;
+    padding:10px 15px;
+    top:46px;
+    z-index:12;
+    background-color:rgb(255, 255, 255);
+    margin-top:-1px;
+    box-shadow:rgba(8, 88, 157, 0.2) 0px 0px 7px 0px;
+    border-radius:4px;
+    list-style:outside none none;
+    padding-left:15px;
+    margin-bottom:0px;
+    box-sizing:border-box;
+    
+}
+.class-21 {
+    text-align:left;
+    position:relative;
+    box-sizing:border-box;
+    
+}
+.class-22 {
+    color:rgb(51, 51, 51);
+    padding:7px 35px 7px 0px;
+    display:block;
+    text-decoration:none solid rgb(51, 51, 51);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-23 {
+    display:inline-block;
+    line-height:46px;
+    height:46px;
+    color:rgb(255, 127, 0);
+    text-align:center;
+    font-size:15px;
+    font-weight:500;
+    text-decoration:none solid rgb(255, 127, 0);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-24 {
+    display: block;
+    position:absolute;
+    opacity:0;
+    filter:opacity(0);
+    visibility:hidden;
+    transition:opacity 0.05s;
+    transform:matrix(1, 0, 0, 1, 0, 20);
+    color:rgb(255, 127, 0);
+    min-width:260px;
+    left:0px;
+    padding:10px 15px;
+    top:46px;
+    z-index:12;
+    background-color:rgb(255, 255, 255);
+    margin-top:-1px;
+    box-shadow:rgba(8, 88, 157, 0.2) 0px 0px 7px 0px;
+    border-radius:4px;
+    list-style:outside none none;
+    padding-left:15px;
+    margin-bottom:0px;
+    box-sizing:border-box;
+    
+}
+.class-25 {
+    color:rgb(255, 127, 0);
+    padding:7px 35px 7px 0px;
+    display:block;
+    text-decoration:none solid rgb(255, 127, 0);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-26 {
+    margin-right:0px;
+    display:block;
+    flex: 1 1 auto;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-27 {
+    line-height:46px;
+    height:46px;
+    color:rgb(51, 51, 51);
+    text-align:center;
+    font-size:15px;
+    font-weight:500;
+    text-decoration:none solid rgb(51, 51, 51);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-28 {
+    display:none;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:15px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-29 {
+    flex:0 0 25%;
+    max-width:25%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-30 {
+    margin-left:20px;
+    float:right;
+    box-sizing:border-box;
+    
+}
+.class-31 {
+    position:relative;
+    color:rgb(255, 255, 255);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
+    font-weight:600;
+    border-radius:45px;
+    padding:0px 20px;
+    min-height:46px;
+    border:0px none rgb(255, 255, 255);
+    user-select:none;
+    transform:matrix(1, 0, 0, 1, 0, 0);
+    backface-visibility:hidden;
+    white-space:nowrap;
+    background-image:-webkit-linear-gradient(-30deg, rgb(245, 127, 32), rgb(214, 43, 8) 100%);
+    transition:0.5s;
+    cursor:pointer;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    line-height:22.4px;
+    box-sizing:border-box;
+    
+}
+.class-32 {
+    float:right;
+    box-sizing:border-box;
+    
+}
+.class-33 {
+    position:relative;
+    box-sizing:border-box;
+    
+}
+.class-34 {
+    display:inline-block;
+    height:46px;
+    line-height:46px;
+    padding:0px 12px;
+    color:rgb(34, 34, 34);
+    text-decoration:none solid rgb(34, 34, 34);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-35 {
+    text-align:center;
+    font-size:24px;
+    vertical-align:middle;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:24px;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-36 {
+    position:absolute;
+    padding:6px;
+    background-color:rgb(255, 255, 255);
+    width: 282px;
+    top:46px;
+    left: auto;
+    right:0px;
+    z-index:1000;
+    margin-bottom:0px;
+    border-radius:4px;
+    animation:0.3s ease 0s 1 normal both running nav_menu_anim_close;
+    transition:opacity 0.3s, visibility 0.3s;
+    opacity:0;
+    filter:opacity(0);
+    visibility:hidden;
+    box-shadow:rgba(0, 0, 0, 0.15) 0px 0px 3px 0px;
+    box-sizing:border-box;
+    
+}
+.class-37 {
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    width: 100%;
+    box-sizing:border-box;
+    
+}
+.class-38 {
+    transition:none;
+    width: 100%;
+    max-width:100%;
+    padding:0px 15px;
+    vertical-align:middle;
+    height:40px;
+    appearance:none;
+    outline:rgb(73, 80, 87) none 0px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    position:relative;
+    flex: 1 1 auto;
+    min-width:0px;
+    margin-bottom:0px;
+    display:block;
+    font-size:14px;
+    font-weight:400;
+    line-height:21px;
+    color:rgb(73, 80, 87);
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(206, 212, 218);
+    border-radius:4px 0px 0px 4px;
+    overflow:clip;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-39 {
+    margin-left:-1px;
+    display:flex;
+    box-sizing:border-box;
+    
+}
+.class-40 {
+    transition:0.3s;
+    font-size:13px;
+    height:40px;
+    padding:0px 12px;
+    background:rgb(194, 0, 12) none repeat scroll 0% 0% / auto padding-box border-box;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    border-radius:0px 5px 5px 0px;
+    line-height:36px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    position:relative;
+    z-index:2;
+    cursor:pointer;
+    display:block;
+    font-weight:400;
+    vertical-align:middle;
+    user-select:none;
+    background-color:rgb(194, 0, 12);
+    border:1px solid rgba(0, 0, 0, 0);
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-41 {
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:13px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-42 {
+    margin-bottom:60px;
+    box-sizing:border-box;
+    
+}
+.class-43 {
+    margin-right:0px;
+    margin-left:0px;
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    
+}
+.class-44 {
+    flex:0 0 100%;
+    max-width:100%;
+    position:relative;
+    width: 100%;
+    padding-right:0px;
+    padding-left:0px;
+    box-sizing:border-box;
+    
+}
+.class-45 {
+    background-image: url("https://cdn.daca.vn/media/background/bg-intro-agency.svg");
+    padding:100px 0px 180px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 100%;
+    box-sizing:border-box;
+    
+}
+.class-46 {
+    flex:0 0 50%;
+    max-width:50%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-47 {
+    font-size:38px;
+    font-weight:600;
+    color:rgb(255, 255, 255);
+    margin-bottom:12px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-48 {
+    font-size:18px;
+    color:rgb(255, 255, 255);
+    margin-bottom:12px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-49 {
+    color:rgb(255, 242, 37);
+    font-size:18px;
+    font-weight:700;
+    box-sizing:border-box;
+    
+}
+.class-50 {
+    font-size:20px;
+    padding:12px 40px;
+    position:relative;
+    color:rgb(255, 255, 255);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:600;
+    border-radius:45px;
+    min-height:46px;
+    border:0px none rgb(255, 255, 255);
+    user-select:none;
+    transform:matrix(1, 0, 0, 1, 0, 0);
+    backface-visibility:hidden;
+    white-space:nowrap;
+    background-image:-webkit-linear-gradient(-30deg, rgb(245, 127, 32), rgb(214, 43, 8) 100%);
+    transition:0.5s;
+    margin-top:20px;
+    cursor:pointer;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    margin:20px 0px 0px;
+    font-family:Daca, Arial, sans-serif;
+    line-height:32px;
+    box-sizing:border-box;
+    
+}
+.class-51 {
+    flex:0 0 100%;
+    max-width:100%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-52 {
+    font-size:32px;
+    font-weight:600;
+    color:rgb(194, 0, 12);
+    line-height:44.8px;
+    margin-top:0px;
+    margin-bottom:10px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-53 {
+    align-items:center;
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+    box-sizing:border-box;
+    
+}
+.class-54 {
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+    box-sizing:border-box;
+    
+}
+.class-55 {
+    max-width:100%;
+    height: auto;
+    vertical-align:middle;
+    border-style:none;
+    box-sizing:border-box;
+    
+}
+.class-56 {
+    font-size:24px;
+    font-weight:600;
+    color:rgb(51, 51, 51);
+    margin-bottom:10px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-57 {
+    margin-bottom:10px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-58 {
+    font-weight:700;
+    box-sizing:border-box;
+    
+}
+.class-59 {
+    font-size:32px;
+    font-weight:600;
+    color:rgb(194, 0, 12);
+    line-height:44.8px;
+    margin-top:30px;
+    margin-bottom:10px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-60 {
+    order:2;
+    flex:0 0 50%;
+    max-width:50%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-61 {
+    order:1;
+    flex:0 0 50%;
+    max-width:50%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-62 {
+    margin-top:30px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-63 {
+    font-size:20px;
+    padding:12px 40px;
+    position:relative;
+    color:rgb(255, 255, 255);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:600;
+    border-radius:45px;
+    min-height:46px;
+    border:0px none rgb(255, 255, 255);
+    user-select:none;
+    transform:matrix(1, 0, 0, 1, 0, 0);
+    backface-visibility:hidden;
+    white-space:nowrap;
+    background-image:-webkit-linear-gradient(-30deg, rgb(245, 127, 32), rgb(214, 43, 8) 100%);
+    transition:0.5s;
+    cursor:pointer;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    line-height:32px;
+    box-sizing:border-box;
+    
+}
+.class-64 {
+    background-image: url("https://cdn.daca.vn/media/background/bg-reason.svg");
+    padding:60px 0px;
+    background-size:cover;
+    position:relative;
+    background-repeat:no-repeat;
+    background-position:50% 0%;
+    box-sizing:border-box;
+    
+}
+.class-65 {
+    text-align:center;
+    font-size:32px;
+    font-weight:400;
+    color:rgb(255, 255, 255);
+    margin-bottom:10px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-66 {
+    text-align:center;
+    font-size:18px;
+    color:rgb(255, 255, 255);
+    margin-bottom:20px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-67 {
+    position:absolute;
+    top:150px;
+    margin: 0px auto;
+    left:0px;
+    right:0px;
+    z-index:9;
+    transform:matrix(1, 0, 0, 1, 10, 0);
+    max-width:100%;
+    height: auto;
+    vertical-align:middle;
+    border-style:none;
+    box-sizing:border-box;
+    
+}
+.class-68 {
+    font-size:38px;
+    color:rgb(255, 255, 255);
+    font-weight:700;
+    text-shadow:rgba(0, 0, 0, 0.13) 0px 4px 0px;
+    text-transform:uppercase;
+    margin:0px 0px 16px;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:16px;
+    box-sizing:border-box;
+    
+}
+.class-69 {
+    font-size:80px;
+    color:rgb(255, 242, 37);
+    vertical-align:middle;
+    display:inline-block;
+    margin-bottom:16px;
+    font-weight:700;
+    box-sizing:border-box;
+    
+}
+.class-70 {
+    position:relative;
+    margin-bottom:30px;
+    box-sizing:border-box;
+    
+}
+.class-71 {
+    border-radius:10px;
+    box-shadow:rgba(0, 0, 0, 0.41) 0px 8px 24px 0px;
+    position:relative;
+    z-index:3;
+    background:rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    width: 100%;
+    overflow:hidden;
+    border-collapse:collapse;
+    box-sizing:border-box;
+    
+}
+.class-72 {
+    border-left:0px none rgb(70, 70, 70);
+    text-align:left;
+    width: 24%;
+    border-bottom:0px none rgb(70, 70, 70);
+    border-top:0px none rgb(70, 70, 70);
+    font-weight:500;
+    color:rgb(70, 70, 70);
+    padding:10px 18px;
+    position:relative;
+    box-sizing:border-box;
+    
+}
+.class-73 {
+    border-bottom:0px none rgb(70, 70, 70);
+    border-top:0px none rgb(70, 70, 70);
+    font-weight:500;
+    color:rgb(70, 70, 70);
+    padding:10px 18px;
+    position:relative;
+    width: 19%;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-74 {
+    border-left:0px none rgb(70, 70, 70);
+    text-align:left;
+    width: 24%;
+    font-weight:500;
+    color:rgb(70, 70, 70);
+    padding:10px 18px;
+    position:relative;
+    box-sizing:border-box;
+    
+}
+.class-75 {
+    font-weight:500;
+    color:rgb(70, 70, 70);
+    padding:10px 18px;
+    border:1px solid rgb(212, 212, 212);
+    position:relative;
+    width: 19%;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-76 {
+    border-right:0px none rgb(70, 70, 70);
+    font-weight:500;
+    color:rgb(70, 70, 70);
+    padding:10px 18px;
+    position:relative;
+    width: 19%;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-77 {
+    font-size:32px;
+    font-weight:600;
+    color:rgb(194, 0, 12);
+    line-height:44.8px;
+    margin-top:0px;
+    margin-bottom:30px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-78 {
+    flex:0 0 33.3333%;
+    max-width:33.3333%;
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing:border-box;
+    
+}
+.class-79 {
+    text-align:center;
+    margin:15px 0px;
+    box-sizing:border-box;
+    
+}
+.class-80 {
+    height:100px;
+    display:flex;
+    align-items:center;
+    position:relative;
+    justify-content:center;
+    margin:0px 0px 30px;
+    box-sizing:border-box;
+    
+}
+.class-81 {
+    height:100px;
+    width: auto;
+    max-width:100%;
+    vertical-align:middle;
+    border-style:none;
+    box-sizing:border-box;
+    
+}
+.class-82 {
+    font-size:18px;
+    color:rgb(37, 37, 37);
+    font-weight:600;
+    margin:0px 0px 10px;
+    margin-top:0px;
+    margin-bottom:10px;
+    box-sizing:border-box;
+    
+}
+.class-83 {
+    color:rgb(70, 70, 70);
+    max-width:250px;
+    margin: 0px auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    box-sizing:border-box;
+    
+}
+.class-84 {
+    display:flex;
+    align-items:flex-start;
+    margin-bottom:20px;
+    box-sizing:border-box;
+    
+}
+.class-85 {
+    flex-shrink:0;
+    width: 85px;
+    height:85px;
+    margin-top:3px;
+    margin-right:14px;
+    max-width:100%;
+    vertical-align:middle;
+    border-style:none;
+    box-sizing:border-box;
+    
+}
+.class-86 {
+    font-weight:600;
+    margin-bottom:4px;
+    font-size:18px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-87 {
+    margin-bottom:0px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-88 {
+    padding-top:60px;
+    padding-bottom:60px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background:rgba(0, 0, 0, 0) linear-gradient(to right, rgb(255, 204, 51), rgb(255, 179, 71)) no-repeat scroll 0% 0% / cover padding-box border-box;
+    box-sizing:border-box;
+    
+}
+.class-89 {
+    display:flex;
+    background:rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-radius:10px;
+    overflow:hidden;
+    box-sizing:border-box;
+    
+}
+.class-90 {
+    width: 32%;
+    padding:20px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+    box-sizing:border-box;
+    
+}
+.class-91 {
+    font-size:20px;
+    line-height:28px;
+    font-weight:600;
+    margin-bottom:30px;
+    box-sizing:border-box;
+    
+}
+.class-92 {
+    background:rgb(255, 127, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    font-weight:600;
+    color:rgb(255, 255, 255);
+    padding:18px 0px;
+    display:block;
+    border-radius:5px;
+    text-decoration:none solid rgb(255, 255, 255);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-93 {
+    margin-top:10px;
+    margin-bottom:10px;
+    box-sizing:border-box;
+    
+}
+.class-94 {
+    background:rgb(194, 0, 12) none repeat scroll 0% 0% / auto padding-box border-box;
+    font-weight:600;
+    color:rgb(255, 255, 255);
+    padding:18px 0px;
+    display:block;
+    border-radius:5px;
+    text-decoration:none solid rgb(255, 255, 255);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-95 {
+    flex:1 1 0%;
+    padding:20px;
+    box-sizing:border-box;
+    
+}
+.class-96 {
+    font-size:24px;
+    font-weight:600;
+    line-height:33.6px;
+    text-align:center;
+    max-width:600px;
+    margin: 0px auto 30px;
+    color:rgb(255, 127, 0);
+    box-sizing:border-box;
+    
+}
+.class-97 {
+    margin-bottom:16px;
+    box-sizing:border-box;
+    
+}
+.class-98 {
+    transition:none;
+    border-radius:5px;
+    font-size:14px;
+    height:46px;
+    width: 100%;
+    max-width:100%;
+    padding:0px 15px;
+    vertical-align:middle;
+    appearance:none;
+    outline:rgb(73, 80, 87) none 0px;
+    display:block;
+    font-weight:400;
+    line-height:21px;
+    color:rgb(73, 80, 87);
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(206, 212, 218);
+    overflow:clip;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-99 {
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-100 {
+    transition:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1050;
+    display:none;
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+    outline:rgb(51, 51, 51) none 0px;
+    opacity:0;
+    box-sizing:border-box;
+    
+}
+.class-101 {
+    min-height:calc(100% - 56px);
+    max-width:500px;
+    margin: 1.75rem auto;
+    transition:none;
+    display:flex;
+    align-items:center;
+    transform:none;
+    position:relative;
+    width: auto;
+    pointer-events:none;
+    box-sizing:border-box;
+    
+}
+.class-102 {
+    border-radius:15px;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    pointer-events: auto;
+    background-color:rgb(255, 255, 255);
+    -webkit-background-clip:padding-box;
+    outline:rgb(51, 51, 51) none 0px;
+    box-sizing:border-box;
+    
+}
+.class-103 {
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    display:flex;
+    justify-content:space-between;
+    padding:16px;
+    border-bottom:1px solid rgb(222, 226, 230);
+    border-top-left-radius:3.8px;
+    border-top-right-radius:3.8px;
+    box-sizing:border-box;
+    
+}
+.class-104 {
+    width: 180px;
+    margin-bottom:12px;
+    box-sizing:border-box;
+    
+}
+.class-105 {
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:6px;
+    line-height:36px;
+    box-sizing:border-box;
+    
+}
+.class-106 {
+    position:absolute;
+    top:0px;
+    right:0px;
+    background:rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    color:rgb(255, 255, 255);
+    opacity:1;
+    border-radius:50%;
+    width: 32px;
+    height:32px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    transform:none;
+    padding:16px;
+    margin: -1rem -1rem -1rem auto;
+    background-color:rgb(0, 0, 0);
+    border:0px none rgb(255, 255, 255);
+    float:none;
+    font-weight:700;
+    line-height:20px;
+    text-shadow:rgb(255, 255, 255) 0px 1px 0px;
+    cursor:pointer;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-107 {
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:20px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-108 {
+    position:relative;
+    flex: 1 1 auto;
+    padding:16px;
+    box-sizing:border-box;
+    
+}
+.class-109 {
+    transition:none;
+    border-radius:5px;
+    min-height:50px;
+    width: 100%;
+    max-width:100%;
+    padding:0px 15px;
+    vertical-align:middle;
+    height:40px;
+    appearance:none;
+    outline:rgb(73, 80, 87) none 0px;
+    display:block;
+    font-size:14px;
+    font-weight:400;
+    line-height:21px;
+    color:rgb(73, 80, 87);
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(206, 212, 218);
+    overflow:clip;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-110 {
+    height:50px;
+    width: 100%;
+    text-transform:uppercase;
+    position:relative;
+    color:rgb(255, 255, 255);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
+    font-weight:600;
+    border-radius:45px;
+    padding:0px 20px;
+    min-height:46px;
+    border:0px none rgb(255, 255, 255);
+    user-select:none;
+    transform:none;
+    backface-visibility:hidden;
+    white-space:nowrap;
+    background-image:-webkit-linear-gradient(-30deg, rgb(245, 127, 32), rgb(214, 43, 8) 100%);
+    transition:0.5s;
+    cursor:pointer;
+    appearance:button;
+    overflow:visible;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    line-height:22.4px;
+    box-sizing:border-box;
+    
+}
+.class-111 {
+    background-color:rgb(92, 0, 12);
+    background-image:url('https://daca.vn/templates/fashion04/assets/media/background/bg-footer.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    display:block;
+    box-sizing:border-box;
+    
+}
+.class-112 {
+    padding-top:30px;
+    padding-bottom:30px;
+    border-bottom:1px solid rgb(222, 226, 230);
+    box-sizing:border-box;
+    
+}
+.class-113 {
+    margin-bottom:20px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-114 {
+    font-size:32px;
+    font-weight:600;
+    color:rgb(255, 255, 255);
+    margin-bottom:0px;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-115 {
+    color:rgb(255, 255, 255);
+    margin-top:6px;
+    margin-bottom:16px;
+    box-sizing:border-box;
+    
+}
+.class-116 {
+    display:flex;
+    max-width:600px;
+    margin: 0px auto;
+    position:relative;
+    box-sizing:border-box;
+    
+}
+.class-117 {
+    border:0px none rgb(0, 0, 0);
+    padding:18px 20px;
+    border-radius:30px;
+    width: 100%;
+    margin-right:4px;
+    height:60px;
+    max-width:100%;
+    vertical-align:middle;
+    appearance:none;
+    outline:rgb(0, 0, 0) none 0px;
+    overflow:clip;
+    margin:0px 4px 0px 0px;
+    font-family:Daca, Arial, sans-serif;
+    font-size:14px;
+    line-height:22.4px;
+    box-sizing:border-box;
+    
+}
+.class-118 {
+    padding:18px 20px;
+    position:relative;
+    color:rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
+    font-weight:600;
+    border-radius:45px;
+    min-height:46px;
+    border:0px none rgb(255, 255, 255);
+    user-select:none;
+    transform:matrix(1, 0, 0, 1, 0, 0);
+    backface-visibility:hidden;
+    white-space:nowrap;
+    background-image:-webkit-linear-gradient(-30deg, rgb(245, 127, 32), rgb(214, 43, 8) 100%);
+    transition:0.5s;
+    cursor:pointer;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    line-height:22.4px;
+    box-sizing:border-box;
+    
+}
+.class-119 {
+    padding-top:30px;
+    padding-bottom:30px;
+    box-sizing:border-box;
+    
+}
+.class-120 {
+    color:rgb(255, 127, 0);
+    font-weight:600;
+    margin-bottom:15px;
+    font-size:16px;
+    box-sizing:border-box;
+    
+}
+.class-121 {
+    margin-bottom:16px;
+    font-style:normal;
+    line-height:22.4px;
+    box-sizing:border-box;
+    
+}
+.class-122 {
+    margin-bottom:10px;
+    color:rgb(187, 187, 187);
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-123 {
+    padding-right:5px;
+    box-sizing:border-box;
+    
+}
+.class-124 {
+    color:rgb(187, 187, 187);
+    text-decoration:none solid rgb(187, 187, 187);
+    transition:0.25s;
+    box-sizing:border-box;
+    
+}
+.class-125 {
+    margin-bottom:0px;
+    padding-left:0px;
+    list-style:outside none none;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-126 {
+    margin-bottom:10px;
+    box-sizing:border-box;
+    
+}
+.class-127 {
+    margin-bottom:0px;
+    box-sizing:border-box;
+    
+}
+.class-128 {
+    margin-bottom:30px;
+    box-sizing:border-box;
+    
+}
+.class-129 {
+    border:none;
+    overflow:hidden;
+    box-sizing:border-box;
+    
+}
+.class-130 {
+    background:rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    color:rgb(255, 255, 255);
+    padding:10px 0px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-131 {
+    position:fixed;
+    right:10px;
+    bottom:189px;
+    flex-direction:column;
+    align-items:center;
+    list-style:outside none none;
+    padding:0px;
+    margin:0px;
+    z-index:10;
+    margin-top:0px;
+    margin-bottom:0px;
+    box-sizing:border-box;
+    
+}
+.class-132 {
+    width: 40px;
+    height: auto;
+    margin-bottom:4px;
+    box-sizing:border-box;
+    
+}
+.class-133 {
+    width: 100%;
+    height:40px;
+    object-fit:contain;
+    max-width:100%;
+    vertical-align:middle;
+    border-style:none;
+    box-sizing:border-box;
+    
+}
+.class-134 {
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 20px 0px;
+    padding:5px 10px;
+    border:5px solid rgb(121, 121, 121);
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    pointer-events: auto;
+    background-color:rgb(255, 255, 255);
+    -webkit-background-clip:padding-box;
+    outline:rgb(51, 51, 51) none 0px;
+    box-sizing:border-box;
+    
+}
+.class-135 {
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    padding:16px;
+    border-bottom:1px solid rgb(222, 226, 230);
+    border-top-left-radius:3.8px;
+    border-top-right-radius:3.8px;
+    box-sizing:border-box;
+    
+}
+.class-136 {
+    font-size:18px;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-weight:400;
+    text-transform:uppercase;
+    line-height:27px;
+    box-sizing:border-box;
+    
+}
+.class-137 {
+    transform:none;
+    padding:16px;
+    margin: -1rem -1rem -1rem auto;
+    background-color:rgba(0, 0, 0, 0);
+    border:0px none rgb(0, 0, 0);
+    float:right;
+    font-size:21px;
+    font-weight:700;
+    line-height:21px;
+    color:rgb(0, 0, 0);
+    text-shadow:rgb(255, 255, 255) 0px 1px 0px;
+    opacity:0.5;
+    cursor:pointer;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    font-family:Daca, Arial, sans-serif;
+    border-radius:0px;
+    box-sizing:border-box;
+    
+}
+.class-138 {
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:21px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-139 {
+    justify-content:space-between;
+    flex-direction:column;
+    display:flex;
+    box-sizing:border-box;
+    
+}
+.class-140 {
+    color:rgb(194, 0, 12);
+    font-size:16px;
+    margin-bottom:10px;
+    height:50px;
+    line-height:50px;
+    cursor:pointer;
+    font-weight:700;
+    text-align:center;
+    width: 100% !important;
+    display:block;
+    border-radius:4px;
+    border:1px solid rgb(222, 226, 230);
+    box-sizing:border-box;
+    
+}
+.class-141 {
+    height:24px;
+    width: 24px;
+    margin-right:7px;
+    max-width:100%;
+    vertical-align:middle;
+    border-style:none;
+    box-sizing:border-box;
+    
+}
+.class-142 {
+    margin-bottom:15px;
+    text-align:center;
+    position:relative;
+    margin-top:0px;
+    box-sizing:border-box;
+    
+}
+.class-143 {
+    padding-left:5px;
+    padding-right:5px;
+    z-index:1;
+    position:relative;
+    background-color:rgb(255, 255, 255);
+    box-sizing:border-box;
+    
+}
+.class-144 {
+    font-weight:400;
+    color:rgb(194, 0, 12);
+    display:inline-block;
+    margin-bottom:8px;
+    box-sizing:border-box;
+    
+}
+.class-145 {
+    color:rgb(204, 51, 51);
+    box-sizing:border-box;
+    
+}
+.class-146 {
+    transition:none;
+    width: 100%;
+    max-width:100%;
+    padding:0px 40px 0px 45px;
+    vertical-align:middle;
+    height:46px;
+    appearance:none;
+    outline:rgb(73, 80, 87) none 0px;
+    border-radius:4px;
+    display:block;
+    font-size:14px;
+    font-weight:400;
+    line-height:21px;
+    color:rgb(73, 80, 87);
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(206, 212, 218);
+    overflow:clip;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-147 {
+    position:absolute;
+    top:10px;
+    left:15px;
+    box-sizing:border-box;
+    
+}
+.class-148 {
+    font-size:18.6666px;
+    line-height:14px;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-149 {
+    position:absolute;
+    right:10px;
+    top:10px;
+    z-index:99;
+    box-sizing:border-box;
+    
+}
+.class-150 {
+    transition:none;
+    color:rgb(255, 255, 255);
+    background:rgb(194, 0, 12) none repeat scroll 0% 0% / auto padding-box border-box;
+    height:46px;
+    line-height:46px;
+    border:0px none rgb(255, 255, 255);
+    padding:0px;
+    width: 100% !important;
+    cursor:pointer;
+    display:inline-block;
+    font-weight:400;
+    text-align:center;
+    vertical-align:middle;
+    user-select:none;
+    background-color:rgb(194, 0, 12);
+    font-size:14px;
+    border-radius:4px;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-151 {
+    color:rgb(51, 51, 51);
+    text-decoration:none solid rgb(51, 51, 51);
+    transition:0.25s;
+    font-size:14px;
+    margin-top:5px;
+    display:block;
+    box-sizing:border-box;
+    
+}
+.class-152 {
+    overflow:clip;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    font-size:14px;
+    line-height:22.4px;
+    box-sizing:border-box;
+    
+}
+.class-153 {
+    font-size:14px;
+    margin-top:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+    display:flex;
+    box-sizing:border-box;
+    
+}
+.class-154 {
+    color:rgb(194, 0, 12);
+    text-decoration:none solid rgb(194, 0, 12);
+    transition:0.25s;
+    margin-left:5px;
+    box-sizing:border-box;
+    
+}
+.class-155 {
+    max-width:500px;
+    margin: 1.75rem auto;
+    transition:none;
+    transform:none;
+    position:relative;
+    width: auto;
+    pointer-events:none;
+    box-sizing:border-box;
+    
+}
+.class-156 {
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    pointer-events: auto;
+    background-color:rgb(255, 255, 255);
+    -webkit-background-clip:padding-box;
+    outline:rgb(51, 51, 51) none 0px;
+    box-sizing:border-box;
+    
+}
+.class-157 {
+    font-size:18px;
+    margin-top:0px;
+    margin-bottom:10px;
+    font-weight:400;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-158 {
+    margin-bottom:15px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-159 {
+    font-weight:600;
+    display:inline-block;
+    margin-bottom:8px;
+    box-sizing:border-box;
+    
+}
+.class-160 {
+    transition:none;
+    width: 100%;
+    max-width:100%;
+    padding:0px 15px;
+    vertical-align:middle;
+    height:40px;
+    appearance:none;
+    outline:rgb(73, 80, 87) none 0px;
+    display:block;
+    font-size:14px;
+    font-weight:400;
+    line-height:21px;
+    color:rgb(73, 80, 87);
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(206, 212, 218);
+    border-radius:4px;
+    overflow:clip;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-161 {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:flex-end;
+    padding:12px;
+    border-top:1px solid rgb(222, 226, 230);
+    border-bottom-right-radius:3.8px;
+    border-bottom-left-radius:3.8px;
+    box-sizing:border-box;
+    
+}
+.class-162 {
+    transition:none;
+    margin:4px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 123, 255);
+    border-color:rgb(0, 123, 255);
+    cursor:pointer;
+    display:block;
+    font-weight:400;
+    text-align:center;
+    vertical-align:middle;
+    user-select:none;
+    border:1px solid rgb(0, 123, 255);
+    padding:6px 12px;
+    font-size:14px;
+    line-height:21px;
+    border-radius:4px;
+    flex:0 0 100%;
+    max-width:100%;
+    position:relative;
+    width: 100%;
+    padding-right:12px;
+    padding-left:12px;
+    appearance:button;
+    text-transform:none;
+    overflow:visible;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-163 {
+    max-width:1140px;
+    margin: 1.75rem auto;
+    transition:none;
+    margin-top:0px;
+    margin-bottom:0px;
+    height:100%;
+    justify-content:center;
+    flex-direction:column;
+    display:flex;
+    transform:none;
+    position:relative;
+    width: auto;
+    pointer-events:none;
+    box-sizing:border-box;
+    
+}
+.class-164 {
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1040;
+    width: 100%;
+    height:945px;
+    outline:rgb(51, 51, 51) none 0px;
+    pointer-events:none;
+    opacity:0;
+    filter:opacity(0);
+    visibility:hidden;
+    box-sizing:border-box;
+    
+}
+.class-165 {
+    transition:none;
+    width: 100%;
+    max-width:100%;
+    padding:0px 15px;
+    vertical-align:middle;
+    height:40px;
+    appearance:none;
+    outline:rgb(73, 80, 87) none 0px;
+    position:relative;
+    flex: 1 1 auto;
+    min-width:0px;
+    margin-bottom:0px;
+    display:block;
+    font-size:14px;
+    font-weight:400;
+    line-height:21px;
+    color:rgb(73, 80, 87);
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(206, 212, 218);
+    border-radius:4px;
+    overflow:clip;
+    margin:0px;
+    font-family:Daca, Arial, sans-serif;
+    box-sizing:border-box;
+    
+}
+.class-166 {
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    width: 460px;
+    overflow: hidden auto;
+    z-index:1030;
+    background-color:rgb(255, 255, 255);
+    box-shadow:rgba(0, 0, 0, 0.2) -1px 0px 3px 0px;
+    transform:matrix(1, 0, 0, 1, 460, 0);
+    transition:transform 0.3s cubic-bezier(0.65, 0.05, 0.51, 0.82);
+    box-sizing:border-box;
+    
+}
+.class-167 {
+    margin-left:30px;
+    margin-right:30px;
+    border-bottom:1px solid rgb(221, 221, 221);
+    margin-bottom:5px;
+    align-items:center;
+    justify-content:space-between;
+    display:flex;
+    box-sizing:border-box;
+    
+}
+.class-168 {
+    font-size:24px;
+    font-weight:700;
+    box-sizing:border-box;
+    
+}
+.class-169 {
+    text-align:left;
+    box-sizing:border-box;
+    
+}
+.class-170 {
+    transform:matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0);
+    font-size:30px;
+    color:rgb(194, 0, 12);
+    text-decoration:none solid rgb(194, 0, 12);
+    transition:0.25s;
+    display:inline-block;
+    line-height:30px;
+    box-sizing:border-box;
+    
+}
+.class-171 {
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:30px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-172 {
+    flex: 1 1 auto;
+    display:flex;
+    position:relative;
+    box-sizing:border-box;
+    
+}
+.class-173 {
+    width: 100%;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    flex-direction:column;
+    box-sizing:border-box;
+    
+}
+.class-174 {
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+.class-175 {
+    font-size:100px;
+    margin-bottom:20px;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:100px;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    font-family:iconsax;
+    box-sizing:border-box;
+    
+}
+.class-176 {
+    font-size:16px;
+    box-sizing:border-box;
+    
+}
+.container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="/static/assets/bootstrap/jquery.slim.min.js"></script>
+    <script src="/static/assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-logo">
+                    <a href="/"><img src="/static/assets/image/logo.svg" alt=""></a>
+                </div>
+                <div class="inner-menu">
+                    <ul>
+                        <li>
+                            <a href="/xaydungweb">Xây dựng Website <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                                <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/thietkelogo">Thiết Kế Đồ Họa<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/thietkelogo">Thiết Kế Logo</a></li>
+                                <li><a href="/banhang">Bộ Nhận diện thương hiệu</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/chuongtrinhdaily">Cộng tác<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/chuongtrinhdaily">Chương Trình Đại Lý</a></li>
+                                <li><a href="/congtacvien">Cộng Tác Viên</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://btnbuianhdungtkw-production.up.railway.app/blog" target="_blank">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/tonghop" target="_blank">Tổng Hợp</a></li>
+                                <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/laptrinh" target="_blank">Lập Trình</a></li>
+                                <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/cachbanhangtrenwebsite" target="_blank">Cách Bán Hàng Trên Website</a></li>
+                                <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/biquyetlamseo" target="_blank">Bí Quyết Làm SEO</a></li>
+                                <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/kinhnghiemthietkewebsite" target="_blank">Kinh Nghiệm Thiết Kế Website</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/lienhe">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button>
+                <div class="inner-bar" id="inner-bar"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+    <div class="menu" id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="/xaydungweb">Xây dựng Website</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                    <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/thietkelogo">Thiết Kế Đồ Họa</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/thietkelogo">Thiết kế Logo</a></li>
+                    <li><a href="/banhang">Bộ nhận diện thương hiệu</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/chuongtrinhdaily">Cộng tác</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/chuongtrinhdaily">Chương trình đại lý</a></li>
+                    <li><a href="/congtacvien">Cộng tác viên</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://btnbuianhdungtkw-production.up.railway.app/blog" target="_blank">Blog</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/tonghop" target="_blank">Tổng hợp</a></li>
+                    <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/laptrinh" target="_blank">Lập trình</a></li>
+                    <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/cachbanhangtrenwebsite" target="_blank">Cách bán hàng trên website</a></li>
+                    <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/biquyetlamseo" target="_blank">Bí quyết làm SEO</a></li>
+                    <li><a href="https://btnbuianhdungtkw-production.up.railway.app/blog/kinhnghiemthietkewebsite" target="_blank">Kinh nghiệm thiết kế website</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/lienhe">Liên Hệ</a>
+            </li>
+        </ul>
+        <div class="inner-logo">
+            <img src="/static/assets/image/logo.svg" alt="">
+        </div>
+        <div class="buttonClose" id="buttonClose"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <!--end header -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="/static/assets/image/logo2.jpg" alt="">
+          <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+          <p>38.000+ doanh nghiệp & chủ shop đã tin dùng    </p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form id="myForm" class="myForm">
+                <input type="text" id="name" placeholder="Họ và tên" class="name">
+                <input type="text" id="phone" placeholder="Số điện thoại" class="phone">
+                <input type="text" id="business" placeholder="Lĩnh vực kinh doanh" class="business">
+                <button type="submit" class="button">Gửi Yêu Cầu</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end-modal -->
+   <!-- body -->
+   <div nh-row="h7l921g" class="class-42">
+    <div class="class-43">
+        <div class="class-44">
+            <div nh-block="nfj8dxr" nh-block-cache="true" class="class-7">
+                <div nh-lazy="image-background" class="class-45">
+                    <div class="class-4">
+                        <div class="class-5">
+                            <div class="class-46">
+                                <div class="class-7">
+                                    <h1 class="class-47">Gia tăng doanh thu bán hàng</h1>
+                                    <p class="class-48">Khi trở thành cộng tác viên bán hàng Daca để nhận hoa hồng tới</p>
+                                    <p class="class-48"><strong class="class-49">40% giá trị đơn hàng cùng hoa hồng hấp dẫn</strong></p><button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div nh-row="298j3vx" class="class-42">
+    <div class="class-4">
+        <div class="class-5">
+            <div class="class-51">
+                <div nh-block="ida1wq3" nh-block-cache="true" class="class-7">
+                    <div class="class-7">
+                        <h2 class="class-52">Chia sẻ lợi ích - Cộng tác dài lâu</h2>
+                        <div class="class-53">
+                            <div class="class-46">
+                                <div class="class-54"><img nh-lazy="image" alt="Chia sẻ lợi ích - Cộng tác dài lâu" src="https://cdn.daca.vn/media/anh/chia-se-co-hoi-hop-tac-dai-ly.svg" class="class-55"></div>
+                            </div>
+                            <div class="class-46">
+                                <div class="class-7">
+                                    <h3 class="class-56">Cơ hội cộng tác cho bất kỳ ai!</h3>
+                                    <p class="class-57"><strong class="class-58">Bạn là doanh nghiệp?</strong></p>
+                                    <p class="class-57">Các công ty trong lĩnh vực cung cấp phần mềm, đào tạo thương mại điện tử, SEO, Marketing, công ty luật, thành lập công ty mới...</p>
+                                    <p class="class-57"><strong class="class-58">Là cá nhân?</strong></p>
+                                    <p class="class-57">Designer, chuyên gia online, cá nhân sở hữu lượng khách hàng tiềm năng lớn...</p>
+                                    <p class="class-57"><strong class="class-58">Hay là bất kỳ ai</strong></p>
+                                    <p class="class-57">Tất cả các đơn vị có nhu cầu mở rộng kinh doanh trong lĩnh vực online...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="class-59">Dù bạn là ai, bạn đều có thể trở thành cộng tác viên của chúng tôi ngay hôm nay!</h2>
+                        <div class="class-53">
+                            <div class="class-60">
+                                <div class="class-54"><img nh-lazy="image" alt="Dù bạn là ai, bạn đều có thể trở thành cộng tác viên của chúng tôi ngay hôm nay!" src="https://cdn.daca.vn/media/anh/dai-ly-cua-daca-la-gi.svg" class="class-55"></div>
+                            </div>
+                            <div class="class-61">
+                                <div class="class-7">
+                                    <h3 class="class-56">Chương trình cộng tác viên của Daca là gì?</h3>
+                                    <p class="class-57">Chương trình cộng tác viên của Daca là chương trình dành cho các doanh nghiệp, cá nhân,...muốn giới thiệu và phân phối các sản phẩm của Daca như: Thiết kế website bán hàng,web tin tức, Web theo yêu cầu, phần mềm quản lý bán hàng Daca...</p>
+                                    <p class="class-57">Hãy cùng chúng tôi tạo dựng mối quan hệ đối tác dài hạn vì lợi ích của cả hai bên.Hợp tác trên cơ sở hai bên cùng Win - Win.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cangiua"><button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div nh-row="yuwb5g1" class="class-42">
+    <div class="class-43">
+        <div class="class-44">
+            <div nh-block="tjzvur4" nh-block-cache="true" class="class-7">
+                <div nh-lazy="image-background" class="class-64">
+                    <div class="class-4">
+                        <h2 class="class-65">Tại sao bạn nên tham gia chương trình  <strong class="class-58">cộng tác viên của Daca?</strong></h2>
+                        <p class="class-66">Chỉ cần bán các sản phẩm của Daca bạn sẽ được nhận tới</p><img nh-lazy="image" alt="Background" src="https://cdn.daca.vn/media/background/img-reason.png" class="class-67">
+                        <h3 class="class-68"><strong class="class-69">40%</strong> GIÁ TRỊ ĐƠN HÀNG</h3>
+                        <p class="class-66">Đại lý sẽ được nhận thêm chiết khấu gia tăng theo định mức số đơn hàng được kích hoạt thực tế trong tháng.</p>
+                        <div class="class-70">
+                            <table class="class-71">
+                                <thead class="class-7">
+                                    <tr class="class-7">
+                                        <th class="class-72">Doanh số/tháng</th>
+                                        <th class="class-73">Dưới 20 triệu</th>
+                                        <th class="class-73">Từ 20 đến dưới 50 triệu</th>
+                                        <th class="class-73">Từ 50 đến dưới 100 triệu</th>
+                                        <th class="class-73">Trên 100 triệu</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="class-7">
+                                    <tr class="class-7">
+                                        <td class="class-74">Chiết khấu cơ bản</td>
+                                        <td class="class-75">30%</td>
+                                        <td class="class-75">30%</td>
+                                        <td class="class-75">30%</td>
+                                        <td class="class-76">30%</td>
+                                    </tr>
+                                    <tr class="class-7">
+                                        <td class="class-74">Chiết khấu gia tăng %</td>
+                                        <td class="class-75">0%</td>
+                                        <td class="class-75">10%</td>
+                                        <td class="class-75">15%</td>
+                                        <td class="class-76">20%</td>
+                                    </tr>
+                                    <tr class="class-7">
+                                        <td class="class-74">Tổng chiết khấu<br class="class-7">(Ck cơ bản + Ck gia tăng)</td>
+                                        <td class="class-75">30%</td>
+                                        <td class="class-75">40%</td>
+                                        <td class="class-75">45%</td>
+                                        <td class="class-76">50%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="class-66">Đặc biệt, bạn còn được thưởng thêm % hoa hồng khi có doanh thu bán hàng tốt</p>
+                        <div class="class-70">
+                            <table class="class-71">
+                                <thead class="class-7">
+                                    <tr class="class-7">
+                                        <th class="class-72">Doanh thu quý</th>
+                                        <th class="class-73">Từ 170 - dưới 200 triệu</th>
+                                        <th class="class-73">Từ 200 - dưới 310 triệu</th>
+                                        <th class="class-73">Từ 310 - dưới 390 triệu</th>
+                                        <th class="class-73">Từ 390 triệu trở lên</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="class-7">
+                                    <tr class="class-7">
+                                        <td class="class-74">% Hoa hồng thưởng thêm</td>
+                                        <td class="class-75">3%</td>
+                                        <td class="class-75">4%</td>
+                                        <td class="class-75">5%</td>
+                                        <td class="class-76">6%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div nh-row="317jpw8" class="class-42">
+    <div class="class-4">
+        <div class="class-5">
+            <div class="class-51">
+                <div nh-block="fwg1xnz" nh-block-cache="true" class="class-7">
+                    <div class="class-7">
+                        <h2 class="class-77">03 bước đơn giản để trở thành cộng tác viên của Daca</h2>
+                        <div class="class-5">
+                            <div class="class-78">
+                                <div class="class-79">
+                                    <div class="class-80"><img nh-lazy="image" alt="Đăng ký tham gia chương trình cộng tác viên của Daca" src="https://cdn.daca.vn/media/icons/icon-step-1.svg" class="class-81"></div>
+                                    <h3 class="class-82">Bước 1:</h3>
+                                    <p class="class-83">Đăng ký tham gia chương trình cộng tác viên của Daca</p>
+                                </div>
+                            </div>
+                            <div class="class-78">
+                                <div class="class-79">
+                                    <div class="class-80"><img nh-lazy="image" alt="Daca liên hệ lại với bạn và trao đổi cụ thể hơn về chương trình" src="https://cdn.daca.vn/media/icons/icon-step-2.svg" class="class-81"></div>
+                                    <h3 class="class-82">Bước 2:</h3>
+                                    <p class="class-83">Daca liên hệ lại với bạn và trao đổi cụ thể hơn về chương trình</p>
+                                </div>
+                            </div>
+                            <div class="class-78">
+                                <div class="class-79">
+                                    <div class="class-80"><img nh-lazy="image" alt="Ký hợp đồng cộng tác viên với Daca và bắt đầu kinh doanh" src="https://cdn.daca.vn/media/icons/icon-step-3.svg" class="class-81"></div>
+                                    <h3 class="class-82">Bước 3:</h3>
+                                    <p class="class-83">Ký hợp đồng cộng tác viên với Daca và bắt đầu kinh doanh</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="class-62"><div class="cangiua"><button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section5">
+    <div class="container">
+        <h2 class="inner-title">Bạn có thể yên tâm khi trở thành cộng tác viên của Daca bởi...</h2>
+        <div class="inner-wrap">
+            <div class="inner-image">
+                <img src="/static/assets/image/yen-tam-khi-tro-thanh-dai-ly-cua-daca.svg" alt="">
+            </div>
+            <div class="inner-content">
+                <div class="inner-box">
+                    <img src="/static/assets/image/congtactincay.png" alt="">
+                    <div class="title">
+                        <h2>Đối tác tin cậy</h2>
+                        <p>Thương hiệu mạnh, sản phẩm đồng bộ, công nghệ mới nhất, luôn nhận được sự hỗ trợ tối đa từ Daca là một lợi thế trong quá trình vận hành và phát triển thị trường của đại lý. Bạn có thể hoàn toàn yên tâm khi hợp tác cùng chúng tôi.</p>
+                    </div>
+                </div>
+                <div class="inner-box">
+                    <img src="/static/assets/image/loinhuanhapdan.png" alt="">
+                    <div class="title">
+                        <h2>Lợi nhuận hấp dẫn</h2>
+                        <p>Tạo dựng mối quan hệ đối tác dài hạn vì lợi ích của cả hai bên. Hợp tác trên cơ sở hai bên cùng Win - Win. Đại lý của Daca có mức chiết khấu lên tới 50% giá trị đơn hàng cùng hoa hồng hấp dẫn.</p>
+                    </div>
+                </div>
+                <div class="inner-box">
+                    <img src="/static/assets/image/hotrotoandien.png" alt="">
+                    <div class="title">
+                        <h2>Hỗ trợ toàn diện</h2>
+                        <p>Đội ngũ nhân viên Daca hỗ trợ truyền thông quảng cáo, marketing, chia sẻ bí quyết kinh doanh, tư vấn và đào tạo, huấn luyện về mặt chuyên môn, cung cấp đầy đủ thông tin, tài liệu sản phẩm hỗ trợ chăm sóc khách hàng sau khi ký hợp đồng, chịu trách nhiệm phát triển sản phẩm, cập nhật tính năng và phát triển công nghệ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div nh-row="wjn9p5u" class="class-7">
+    <div class="class-43">
+        <div class="class-44">
+            <div nh-block="1wj4mqe" nh-block-cache="true" class="class-7">
+                <div class="class-88">
+                    <div class="class-4">
+                        <div class="class-89">
+                            <div nh-lazy="image-background" style="background-image: url(&quot;https://cdn.daca.vn/media/background/bg-form-contact-info.jpg&quot;);" class="class-90">
+                                <div class="class-91">Bạn cần tư vấn thêm về chương trình Cộng Tác</div><a href="tel:0868 219 908" class="class-92">Hotline: 0868 219 908</a>
+                                <div class="class-93">hoặc</div><a href="mailto:contact@daca.vn" class="class-94">Email:</a>
+                            </div>
+                            <div class="class-95">
+                                <div class="class-96">Đăng ký tham gia chương trình Cộng Tác với Daca</div>
+                                <form nh-form-contact="TRN7JKULM1" action="/contact/send-info" method="POST" autocomplete="off" novalidate="novalidate" class="class-7">
+                                    <div class="class-97"><input required="" data-rule-number="false" data-msg-number="Vui lòng nhập đúng định dạng" data-msg="Vui lòng nhập thông tin" data-rule-maxlength="50" data-msg-maxlength="Thông tin nhập quá dài" name="full_name" placeholder="Họ và tên *" type="text" class="class-98"></div>
+                                    <div class="class-97"><input required="" maxlength="11" data-msg="Vui lòng nhập số điện thoại" data-rule-phonevn="" data-msg-phonevn="Số điện thoại chưa chính xác" name="phone" type="text" placeholder="Số điện thoại *" class="class-98"></div>
+                                    <div class="class-97"><input name="email" placeholder="Email" type="email" class="class-98"></div>
+                                    <div class="class-99">
+                                        <div class="class-97"><div class="cangiua"><button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button></div></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div nh-row="fqzkpls" class="class-7">
+    <div class="class-4">
+        <div class="class-5">
+            <div class="class-51">
+                <div nh-block="srnxp86" nh-block-cache="true" class="class-7">
+                    <div tabindex="-1" role="dialog" aria-hidden="true" class="class-100">
+                        <div role="document" class="class-101">
+                            <div class="class-102">
+                                <div class="class-103">
+                                    <div class="class-104"><a href="/" class="class-8"><img nh-lazy="image" data-src="https://cdn.daca.vn/media/logo/logo.svg" alt="Daca.vn - Thiết Kế Website Uy Tín, Chuyên Nghiệp, Chuẩn SEO" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="class-55"></a></div>
+                                    <div class="class-7">Đăng ký tham gia chương trình</div>
+                                    <div class="class-105">Đại lý bán hàng với Daca</div><button type="button" data-dismiss="modal" aria-label="Close" class="class-106"><i class="class-107"></i></button>
+                                </div>
+                                <div class="class-108">
+                                    <div class="class-7">
+                                        <form nh-form-contact="TRN7JKULM1" action="/contact/send-info" method="POST" autocomplete="off" novalidate="novalidate" class="class-7">
+                                            <div class="class-97"><input required="" data-rule-number="false" data-msg-number="Vui lòng nhập đúng định dạng" data-msg="Vui lòng nhập thông tin" data-rule-maxlength="50" data-msg-maxlength="Thông tin nhập quá dài" name="full_name" placeholder="Họ và tên *" type="text" class="class-109"></div>
+                                            <div class="class-97"><input required="" maxlength="11" data-msg="Vui lòng nhập số điện thoại" data-rule-phonevn="" data-msg-phonevn="Số điện thoại chưa chính xác" name="phone" type="text" placeholder="Số điện thoại *" class="class-109"></div>
+                                            <div class="class-97"><input name="email" placeholder="Email" type="email" class="class-109"></div>
+                                            <div class="class-97"><div class="cangiua"><button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button></div></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <!-- body -->
+    <!-- footer -->
+    <footer>
+        <!-- section6 -->
+        <div class="section6">
+            <div class="container">
+                <div class="inner-title">
+                    <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+                    <p>TWA – Công Ty Thiết Kế Website Uy Tín, Chuyên Nghiệp, Chuẩn SEO</p>
+                </div>
+                <div class="inner-content">
+                    <form id="formTwo" class="formTwo">
+                        <input type="phoneTwo" id="phoneTwo" class="inner-phone" placeholder="Số điện thoại cần tư vấn">
+                        <button class="button button1" type="submit">Đăng Ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- section6 -->
+        <!-- section7 -->
+        <div class="section7">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="inner-box">
+                        <h2>Liên hệ</h2>
+                        <p>Công Ty TNHH Công Nghệ Và Dịch Vụ TWA</p>
+                        <p>Địa chỉ:T. Phú Lương Thượng - Quảng Phú Cầu - Ứng Hòa - Hà Nội</p>
+                        <p>Hotline:0344 570 115</p>
+                        <p>Email:contact@TWA.vn</p>
+                        <p>Giấy phép kinh doanh số:0109971659 do Sở kế hoạch và Đầu tư Tp. Hà nội cấp ngày 20/04/2022
+                        </p>
+                    </div>
+                    <div class="inner-box">
+                        <h2>TWA.vn</h2>
+                        <a href="#">
+                            <p>Về chúng tôi</p>
+                        </a>
+                        <a href="#">
+                            <p>Bảng giá Website</p>
+                        </a>
+                        <a href="#">
+                            <p>Chương trình đại lý</p>
+                        </a>
+                        <a href="#">
+                            <p>Cộng tác viên</p>
+                        </a>
+                        <a href="#">
+                            <p>Blog TWA</p>
+                        </a>
+                        <a href="#">
+                            <p>Liên hệ</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <h2>Thiết kế website</h2>
+                        <a href="#">
+                            <p>Thiết kế Mỹ phẩm</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Thời trang</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Nội thất</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Công nghệ</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế website mẹ và bé</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Giáo dục</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <h2>Trợ giúp</h2>
+                        <a href="#">
+                            <p>Tài liệu hướng dẫn</p>
+                        </a>
+                        <a href="#">
+                            <p>Hướng dẫn thanh toán</p>
+                        </a>
+                        <a href="#">
+                            <p>Chính sách bảo mật thông tin</p>
+                        </a>
+                        <a href="#">
+                            <p>Điều khoản sử dụng</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="inner-contact">
+                    <div class="inner-box">
+                        <h2>Địa chỉ:</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8139388581217!2d105.83992427503058!3d21.000094180642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac71752d8f79%3A0xd2ec575c01017afa!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIFThur8gUXXhu5FjIETDom4gKE5FVSk!5e0!3m2!1svi!2s!4v1742976642235!5m2!1svi!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section7 -->
+        <!-- section8 -->
+        <div class="section8">
+            <div class="container">
+                <h2>Copyright 2022 TWA.vn - All Rights Reserved</h2>
+            </div>
+        </div>
+        <!-- end-section8 -->
+    </footer>
+    <!-- footer -->
+    <div class="contact">
+        <ul class="contact-list">
+            <li><a href="https://www.facebook.com/ktqdNEU"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+            <li><a href="https://www.facebook.com/ktqdNEU"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/ktqdNEU"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </div>
+
+    <script src="/static/assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/static/assets/js/slick.min.js"></script>
+    <script src="/static/assets/js/script.js"></script>
+</body>
+
+</html>
